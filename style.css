@@ -1,0 +1,40 @@
+.d-block {
+  width: 10%;
+  height: 800px;
+  padding: 0 50px;
+}
+.navbar-brand {
+  background-image: linear-gradient(to right, blue, rgb(216, 35, 177));
+  border-radius: 5px;
+}
+.nav-link {
+  transition: all 0.6s ease;
+}
+.nav-link:hover {
+  cursor: pointer;
+  /* background-color: dimgray; */
+  border-radius: 5px;
+  transform: scale(0.9);
+  background-image: linear-gradient(to right, blue, rgb(216, 35, 177));
+}
+.btn {
+  transition: all 0.3s ease;
+  background-image: linear-gradient(to right, blue, rgb(216, 35, 177));
+}
+.btn:hover {
+  transform: scale(0.9);
+}
+.card-img-top {
+  height: 400px;
+  transition: all 0.3s ease;
+}
+.card-img-top:hover {
+  transform: scale(0.9);
+}
+.place {
+  display: flex;
+  padding-top: 30px;
+}
+.card {
+  margin: 10px 50px;
+}
